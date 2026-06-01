@@ -1,0 +1,24 @@
+# Captured data — never commit real pcaps or probe dumps
+*.pcap
+*.pcapng
+*.json
+*.hccapx
+*.22000
+
+# Python noise
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*~
+
+# The rockyou.txt you definitely didn't put here
+rockyou.txt
+rockyou.txt.gz
+*.wordlist
